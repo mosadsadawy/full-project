@@ -1,8 +1,5 @@
 pipeline {
-    agent 
-     label 'host'
-
-
+    agent { label 'host' }
     stages {
         stage('Hello') {
             steps {
