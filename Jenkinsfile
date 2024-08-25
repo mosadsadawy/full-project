@@ -1,5 +1,5 @@
 pipeline {
-    agent 'host'
+    agent host
 
     stages {
         stage('Hello') {
